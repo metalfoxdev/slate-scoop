@@ -7,7 +7,7 @@
 		"url": "https://github.com/mitchcurtis/slate/blob/master/LICENSE.GPL3"
 	},
 	"url": "https://github.com/mitchcurtis/slate/releases/download/v0.9.0/Slate-v0.9.0-windows.zip",
-	"extract_to": "slate",
+	"extract_dir": "Slate-v0.9.0-windows",
 	"bin": [
 		"Slate.exe"
 	],
@@ -19,6 +19,7 @@
 	],
 	"checkver": "github",
 	"autoupdate": {
-		"url": "https://github.com/mitchcurtis/slate/releases/download/v$version/Slate-v$version-windows.zip"
+		"url": "https://github.com/mitchcurtis/slate/releases/download/v$version/Slate-v$version-windows.zip",
+		"extract_dir": "Slate-v$version-windows"
 	}
 }
